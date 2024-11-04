@@ -1,0 +1,510 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #4c007d;
+}
+
+header {
+    background-color: #3a0842;
+    padding: 10px 0;
+    text-align: right;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.button {
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #3a0842;
+    border: 1px solid #3a0842;
+}
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    height: 500px;
+}
+
+.intro h1 {
+    font-size: 3em;
+    color: #3a0842;
+}
+
+.intro .highlight {
+    color: #7431eb;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 10px 0;
+}
+
+.image img {
+    width: 300px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons .button {
+    margin-right: 10px;
+}
+
+.wave {
+    display: inline-block;
+}
+
+
+
+/* About Section Styles */
+#about {
+    background-color: rgb(209, 211, 215);
+    padding: 50px 20px;
+    text-align: center;
+    color: #333333;
+    height: 700px;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #3a0842;
+}
+
+#about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+#about p:last-child {
+    margin-bottom: 0;
+}
+
+body{
+    background-color: #4c007d;
+}
+
+
+
+/* Education Section Styles */
+#education {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    color: #333;
+}
+
+.education-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#education h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #3a0842;
+}
+
+.education-entry {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.education-entry h3 {
+    font-size: 1.8em;
+    color: #7431eb;
+    margin-bottom: 10px;
+}
+
+.education-entry p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.education-entry strong {
+    color: #3a0842;
+}
+
+
+/* Skills Section Styles */
+#skill {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+    color: #333;
+}
+
+.skill-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#skill h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #3a0842;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill-item {
+    width: 45%;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.skill-item h3 {
+    font-size: 1.5em;
+    color: #7431eb;
+    margin-bottom: 10px;
+}
+
+.skill-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skill-item ul li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Projects Section Styles */
+#projects {
+    background-color: #f4f4f4;
+    padding: 60px 20px;
+    text-align: center;
+    color: #333;
+}
+
+.projects-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #3a0842;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+    font-size: 1.5em;
+    color: #7431eb;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.project-card .button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #7431eb;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.2s;
+}
+
+.project-card .button:hover {
+    background-color: #3a0842;
+}
+
+/* Experience Section Styles */
+#experience {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    color: #333;
+}
+
+.experience-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#experience h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #3a0842;
+}
+
+.experience-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.experience-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+    text-align: left;
+}
+
+.experience-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.experience-item h3 {
+    font-size: 1.5em;
+    color: #7431eb;
+    margin-bottom: 5px;
+}
+
+.experience-item h4 {
+    font-size: 1.2em;
+    color: #3a0842;
+    margin-bottom: 10px;
+}
+
+.experience-item .duration {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.experience-item p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.hobbies-container {
+    text-align: center;
+    padding: 50px;
+    background-color: whitesmoke;
+    color: white;
+}
+
+
+
+.hobbies-container h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color:#7431eb
+
+}
+
+.hobbies-subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: yellowgreen;
+}
+
+.hobbies-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    color:#7431eb
+}
+
+.hobby-card {
+    background-color: #4c007d;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+    color:#7431eb
+}
+
+.hobby-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.hobby-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffcc00;
+}
+
+.hobby-card p {
+    font-size: 16px;
+    color: white;
+}
+
+.hobby-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  #contact {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    color:black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #successMessage {
+    text-align: center;
+    color: #4CAF50;
+    margin-top: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 600px) {
+    #contact {
+      padding: 15px;
+    }
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+}
+
+.download-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #0056b3;
+}
